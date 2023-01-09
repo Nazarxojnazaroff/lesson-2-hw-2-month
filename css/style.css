@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(../fonts/Rubik-Regular.ttf);
+}
+.general {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.general-img {
+  text-align: center;
+}
+.cards {
+  width: 1300px;
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 90px;
+  margin-left: 100px;
+  margin-top: 45px;
+}
+.card {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.header h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #363940;
+  margin-bottom: 10px;
+}
+.header p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #95a1bb;
+}
+.card-content h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #363940;
+}
+.card-content p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #95a1bb;
+}
